@@ -1,0 +1,48 @@
+.container-row-user-list {
+    justify-content: center; 
+    align-items: center;
+}
+
+.list-group-user {
+    max-height: 90vh;
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item-user {
+    background-color: #EBF6FF;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.container-header-user {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+}
+
+.header-user-name {
+    flex-grow: 1;
+}
+
+.button-remove-user {
+    width:auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    padding-left: 10px;
+}
+
+.container-img-user {
+    text-align:center;
+}
+
+.img-user {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto; width: auto;
+}
+
+.container-list-user-title {
+    background-color: #EBF6FF;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
